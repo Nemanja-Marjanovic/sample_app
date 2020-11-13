@@ -89,6 +89,7 @@ GEM
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gravatar_image_tag (1.2.0)
     guard (2.15.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -251,6 +252,7 @@ DEPENDENCIES
   bootstrap-sass (= 3.4.1)
   byebug (= 11.0.1)
   capybara (= 3.28.0)
+  gravatar_image_tag
   guard (= 2.15.0)
   guard-minitest (= 2.4.6)
   jbuilder (= 2.9.1)
