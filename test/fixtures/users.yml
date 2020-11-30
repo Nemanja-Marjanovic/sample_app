@@ -3,6 +3,7 @@
     name: Nemanja Marjanovic
     email: mr.nemanja.marjanovic@gmail.com
     password_digest: <%= User.digest('password') %>
+    admin: true
     
   nenad: 
     name: Nenad Marjanovic
