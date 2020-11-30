@@ -3,5 +3,26 @@
     name: Nemanja Marjanovic
     email: mr.nemanja.marjanovic@gmail.com
     password_digest: <%= User.digest('password') %>
-# empty
+    
+  nenad: 
+    name: Nenad Marjanovic
+    email: nenad@bratmoj.com
+    password_digest: <%= User.digest('password') %>
+    
+  ivan: 
+    name: Ivan Bajalovic
+    email: ivan@bajalovic.com
+    password_digest: <%= User.digest('password') %>
+    
+  hristina:
+    name: Hristina Marjanovic
+    email: hristina@marjanovic@gmail.com
+    password_digest: <%= User.digest('password') %>
+  
+<% 30.times do |n| %>
+  user_<%= n %>:
+    name: <%= "User #{n}" %>
+    email: <%= "user-#{n}@example.com" %>
+    password_digest: <%= User.digest('password') %>
+<% end %>
 
